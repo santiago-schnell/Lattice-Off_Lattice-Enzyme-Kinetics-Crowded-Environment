@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: act_4chemicals_a - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\RAMONG~1\LOCALS~1\Temp\RSP117.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/act_4chemicals_a.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Borland\BCC55\Bin\act_4chemicals_a.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\RAMONG~1\LOCALS~1\Temp\RSP117.tmp" 
+Creating temporary file "C:\DOCUME~1\RAMONG~1\LOCALS~1\Temp\RSP118.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/act_4chemicals_a.pdb" /debug /machine:I386 /out:"Debug/act_4chemicals_a.exe" /pdbtype:sept 
+.\Debug\act_4chemicals_a.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\RAMONG~1\LOCALS~1\Temp\RSP118.tmp"
+<h3>Output Window</h3>
+Compiling...
+act_4chemicals_a.cpp
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(56) : warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(56) : warning C4305: 'return' : truncation from 'const double' to 'float'
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(185) : error C2065: 'div_t' : undeclared identifier
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(185) : error C2146: syntax error : missing ';' before identifier 'divresult_a'
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(185) : error C2065: 'divresult_a' : undeclared identifier
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(192) : error C2065: 'div' : undeclared identifier
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(193) : error C2228: left of '.rem' must have class/struct/union type
+c:\borland\bcc55\bin\act_4chemicals_a.cpp(377) : error C2228: left of '.rem' must have class/struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+act_4chemicals_a.exe - 6 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
